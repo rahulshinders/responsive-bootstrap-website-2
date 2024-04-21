@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    width: 100%;
+    background-image: url("/images/illustrations/destination_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVIGATION SECTION */
+
+.nav {
+    height: 15%;
+}
+
+.lst-items a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER SECTION */
+
+.hero {
+    height: 85%;
+    width: 100%;
+}
+
+.hero-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-t {
+    margin: 160px 0px;
+}
+
+.trans-con {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.s-con {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-con {
+    background-color: white;
+
+}
+
+.s-form input, .name, .e-mail {
+    background-color: #f2f5f6;
+    border: none;
+    color: #b2b3c1;
+    width: 200px;
+}
+
+.s-form button, .foot-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    width: 180px;
+    height: 50px;
+}
+
+/* MAIN SECTION */
+
+.main {
+    border-bottom: 1px solid #c5c5ce;
+}
+
+.main, .main-wrap {
+    width: 100%;
+}
+
+.illus-img img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.illus-t h6 {
+    color: #9090a4;
+}
+
+/* SECTION - FOUR */
+
+.four-img{
+    width: 100%
+}
+
+.four-img figure img {
+    height: 240px;
+    width: 360px;
+}
+
+.sticker {
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 82px;
+        /* bottom: 240px; */
+        width: 120px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+}
+
+/* SECTION - FIVE */
+
+.fifth-wrap {
+    height: 650px;
+    background-image: url("../images/illustrations/news_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sixth-sec, .sixth-wrap, .six-img {
+    width: 100%;
+}
+
+.month {
+    font-size: 12px;
+}
+
+.card-img1 img {
+    width: 400px;
+    height: 320px;
+}
+
+/* FOOTER SECTION */
+
+.foot-sec {
+    width: 100%;
+}
+
+.foot-wrap {
+    background-image: url("../images/illustrations/destination_3.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot-img img {
+    width: 70px;
+    height: 70px;
+}
+
+.foot-cards {
+    width: 100%;
+}
+
+
