@@ -36,14 +36,24 @@
                     <div class="number d-none d-lg-flex align-items-center justify-content-end col">Call us:
                         00-56 445 678 33</div>
                     <div class="opt d-flex d-lg-none justify-content-end col">
-                        <i class="bi bi-list"></i>
+                        <a class="sidebar-btn text-dark"><i class="bi bi-list"></i></a>
+                        <div class="sidebar d-md-none d-lg-none">
+                            <a class="close d-flex justify-content-end"><i class="bi bi-x-lg"></i></a>
+                            <ul class="lst-items d-lg-flex list-unstyled m-2">
+                                <li class="m-3"><a href="#">Home</a></li>
+                                <li class="m-3"><a href="#">About</a></li>
+                                <li class="m-3"><a href="#">Services</a></li>
+                                <li class="m-3"><a href="#">News</a></li>
+                                <li class="m-3"><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
 
             <!-- HEADER SECTION -->
             <header class="hero ">
-                <div class="hero-wrap container">
+                <div class="hero-wrap">
                     <h1 class="hero-t text-center fs-1">Let us take your away</h1>
                     <div class="trans-con py-5">
                         <div class="s-con text-center py-3 col-lg-4 mx-auto">
@@ -110,12 +120,11 @@
                     <figure class="col">
                         <div class="d-flex d-lg-flex justify-content-center">
                             <img src="images/illustrations/destination_1.jpg.webp" alt="">
-                            <div class="sticker">
+                            <!-- <div class="sticker">
                                 <h6>Special Offer</h6>
-                            </div>
-                            
+                            </div> -->
                         </div>
-                        
+
                         <figcaption class="ms-4 py-3 pe-3">
                             <h3>Bali</h3>
                             <h6>Lorem ipsum dolor sit amet.</h6>
@@ -281,6 +290,8 @@
         </footer>
 
     </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./javascript/main.js"></script>
 </body>
 
 </html>
